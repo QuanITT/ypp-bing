@@ -15,11 +15,11 @@ app.setRootComponent(AppComponent);
 app.declareComponents(
   AppComponent,
   NewsList,
-  NewsComponent,
   ChannelComponent,
+  NewsComponent,
   FinanceComponent,
   SportComponent,
-  AdsComponent
+  AdsComponent,
 );
 app.declareServices(NewsService);
 
